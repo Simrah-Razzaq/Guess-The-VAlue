@@ -1,0 +1,26 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    flex-direction: column;
+}
+.box{
+    border: 1px solid black;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+button{
+    background-color: red;
+    color: white;
+    font-size: 15px;
+}
+button:hover{
+    background-color: greenyellow;
+    color: black;
+}
+input{
+    font-size: 20px;
+}
